@@ -110,6 +110,10 @@ Unique identifier of the source. If not provided, a default id will be assigned.
 
 Required. Type of the source.
 
+#### `generateId`: boolean {#generateId}
+
+Optional. Will generate IDs for each feature (useful for FeatureState handling)
+
 ## Source
 
 [source.ts](https://github.com/visgl/react-map-gl/tree/7.0-release/src/components/source.ts)
